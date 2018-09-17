@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>福利列表</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content=""/>
+  <link rel="shortcut icon" href="" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="mobile-agent" content="format=[wml|xhtml|html5];url=<?=$public_r[add_www_92game_net_domain_m]?><?=game_real_url($navinfor[titleurl])?>"/>
+  <link rel="alternate" type="application/vnd.wap.xhtml+xml" media="handheld" href="<?=$public_r[add_www_92game_net_domain_m]?><?=game_real_url($navinfor[titleurl])?>">
+  <link rel="alternate" media="only screen and(max-width: 640px)" href="<?=$public_r[add_www_92game_net_domain_m]?><?=game_real_url($navinfor[titleurl])?>">
+  <meta name="applicable-device" content="pc">
+  <link rel="stylesheet" href="static/font/iconfont.css">
+  <link rel="stylesheet" href="static/css/base.css">
+  <link rel="stylesheet" href="static/css/list2.css">
+</head>
+
+<body>
+  <div id="top_nav">
+    <span>
+      <strong>VR之家：VR游戏下载，VR软件下载就到VR之家下载站 - 权威中文VR媒体平台</strong>
+      <i>
+        <a href="">VR之家</a>|
+        <a href="" target="_blank">VR游戏</a>|
+        <a href="" target="_blank">VR资讯</a>|
+        <a href="" target="_blank">视频频道</a>|
+        <a href="" target="_blank">专题频道</a>|
+        <a href="" target="_blank">VR排行榜</a>|
+        <a href="" target="_blank">最新更新</a>|
+        <a href="" rel="nofollow" target="_blank">应用提交</a>|
+      </i>
+    </span>
+  </div>
+  <div id="header">
+    <div class="header_hd">
+      <div class="header_box">
+        <div class="header_l">
+          <a class="logo" href="">
+            <img src="static/images/logo.jpg" alt="VR之家" />
+          </a>
+        </div>
+        <div class="header_r">
+          <div class="searchBox">
+            <form method="post" action="/e/search/index.php">
+              <div class="serach">
+                <input type="text" autocomplete="off" class="serach_txt" name="keyboard" id="ser_txt" placeholder="梦幻西游" />
+                <input type="submit" class="serach_btn" id="ser_btn" value="搜索" />
+              </div>
+              <input type="hidden" name="show" value="title">
+              <input type="hidden" name="tbname" value="download">
+              <input type="hidden" name="tempid" value="1">
+            </form>
+          </div>
+          <p class="skey clearfix">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="header_nav">
+      <div class="nav_con">
+        <ul>
+          <li>
+            <a href="">VR之家</a>
+          </li>
+          <li>
+            <a href="">VR游戏</a>
+          </li>
+          <li>
+            <a href="">VR资讯</a>
+          </li>
+          <li>
+            <a href="">VR视频</a>
+          </li>
+          <li>
+            <a href="" class="wy current">热门网游
+              <span></span>
+            </a>
+          </li>
+          <li>
+            <a href="">游戏评测</a>
+          </li>
+          <li>
+            <a href="">VR专题</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 位置 -->
+  <div class="seat">
+    <div class="w1200">我的位置：
+      <a href="/">首页</a>&nbsp;&gt;&nbsp;
+      <a href="/az/">BT手游</a>
+    </div>
+  </div>
+
+  <div class="w1100">
+    <!-- 分类 -->
+    <div class="game-cate">
+      <dl class="cate">
+        <div class="fl fl-w">按类型选择:</div>
+        <div class="cation">
+          <dd class="fr fr1">
+            <a href="" class="cur">全部</a>
+            <a href="">射击作战</a>
+            <a href="">刺激游戏</a>
+            <a href="">剧情体验</a>
+            <a href="">模拟驾驶</a>
+            <a href="">动物模拟</a>
+            <a href="">动作跑酷</a>
+            <a href="">益智解谜</a>
+            <a href="">太空宇宙</a>
+            <a href="">场景模拟</a>
+            <a href="">恐怖惊悚</a>
+            <a href="">体感游戏</a>
+            <a href="">飞行体验</a>
+            <a href="">成人游戏</a>
+            <a href="">探索冒险</a>
+            <a href="">真实模拟</a>
+            <a href="">卡牌</a>
+            <a href="">格斗</a>
+            <a href="">角色</a>
+            <a href="">策略</a>
+            <a href="">放置</a>
+            <a href="">动作</a>
+            <a href="">休闲</a>
+            <a href="">二次元</a>
+            <a href="">其他</a>
+          </dd>
+        </div>
+      </dl>
+      <dl class="cate1">
+        <div class="fl fl-w">按平台选择:</div>
+        <div class="cation">
+          <dd class="fr fr2">
+            <a href="">全部</a>
+            <a href="" class="heats cur">BT手游
+              <p class="heat">H</p>
+            </a>
+            <a href="">满V手游</a>
+            <a href="">GM手游</a>
+            <a href="">安卓VR</a>
+            <a href="">PC VR</a>
+            <a href="">IOS VR</a>
+            <a href="">VR应用</a>
+            <a href="">VR资源</a>
+
+          </dd>
+        </div>
+      </dl>
+      <dl class="cate1">
+        <div class="fl fl-w">按语言选择:</div>
+        <div class="cation">
+          <dd class="fr fr3">
+            <a href="" class="cur">全部</a>
+            <a href="">简体中文</a>
+            <a href="">繁体中文</a>
+            <a href="">英语</a>
+            <a href="">多国语言</a>
+            <a href="">其他语言</a>
+
+          </dd>
+        </div>
+      </dl>
+    </div>
+    <div class="content-border">
+    <!-- content-left -->
+    <div class="main_l fl mt bp">
+      <div class="main-nav">
+        <a class="cur">最近更新</a>
+        <a class="cur">人气排行</a>
+      </div>
+      <div class="downList" id="appDown">
+        <ul class="clearfix uls">
+
+          <li>
+            <a href="" title="美女嘿嘿嘿VR">
+              <img src="http://www.3vrvr.com/d/file/az/snyx/2017-09-12/3acb1f7bcbfbdec63f5d2c4c0e4270d5.jpg" alt="美女嘿嘿嘿VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="美女嘿嘿嘿VR" rel="nofollow">美女嘿嘿嘿VR</a>
+              </strong>2017-09-12 | 260MB
+              <br> 类型：少女游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              <a href="http://www.3vrvr.com/az/556.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="红牛涂鸦艺术VR">
+              <img src="http://www.3vrvr.com/d/file/az/xxyc/2017-09-08/6b2d2c6749e50fa90c0fd23f1e672ff8.jpg" alt="红牛涂鸦艺术VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="红牛涂鸦艺术VR" rel="nofollow">红牛涂鸦艺术VR</a>
+              </strong>2017-09-08 | 260MB
+              <br> 类型：休闲养成
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/552.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="死亡视角VR">
+              <img src="http://www.3vrvr.com/d/file/az/etyx/2017-12-27/ea85867fc0286c0fec964bdf68455c90.jpeg" alt="死亡视角VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="死亡视角VR" rel="nofollow">死亡视角VR</a>
+              </strong>2017-12-27 | 2.13G
+              <br> 类型：儿童游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/685.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="炽天使之怒">
+              <img src="http://www.3vrvr.com/d/file/az/etyx/2017-12-08/55a668d5b0df6c4f2e2f7d712ca6b758.png" alt="炽天使之怒" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="炽天使之怒" rel="nofollow">炽天使之怒</a>
+              </strong>2017-12-07 | 128.15MB
+              <br> 类型：儿童游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/656.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="vr网球4">
+              <img src="http://www.3vrvr.com/d/file/pc/tytg/2017-10-27/275d46d0df9cd2e05341209b8abe80d8.jpg" alt="vr网球4" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="vr网球4" rel="nofollow">vr网球4</a>
+              </strong>2017-10-27 | 2.00GB
+              <br> 类型：体育竞技
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/594.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="欲望之血VR">
+              <img src="http://www.3vrvr.com/d/file/az/jsby/2017-10-19/54a89810d5cf57dfc3c52814f39a47ba.jpg" alt="欲望之血VR" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="欲望之血VR" rel="nofollow">欲望之血VR</a>
+              </strong>2017-10-19 | 1.6g
+              <br> 类型：角色扮演
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/589.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="中世纪的帝国VR">
+              <img src="http://www.3vrvr.com/d/file/az/yzjm/2017-09-16/c2e4c96a6aa2d0bf9107f97cccb3914a.jpg" alt="中世纪的帝国VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="中世纪的帝国VR" rel="nofollow">中世纪的帝国VR</a>
+              </strong>2017-09-16 | 45.02M
+              <br> 类型：益智解谜
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/564.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="死亡抉择VR">
+              <img src="http://www.3vrvr.com/d/file/az/cjty/2017-09-12/08f7283b3ce86b44293ba8310477b678.jpg" alt="死亡抉择VR" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="死亡抉择VR" rel="nofollow">死亡抉择VR</a>
+              </strong>2017-09-12 | 177.1MB
+              <br> 类型：场景体验
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/557.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="美女嘿嘿嘿VR">
+              <img src="http://www.3vrvr.com/d/file/az/snyx/2017-09-12/3acb1f7bcbfbdec63f5d2c4c0e4270d5.jpg" alt="美女嘿嘿嘿VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="美女嘿嘿嘿VR" rel="nofollow">美女嘿嘿嘿VR</a>
+              </strong>2017-09-12 | 260MB
+              <br> 类型：少女游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/556.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="红牛涂鸦艺术VR">
+              <img src="http://www.3vrvr.com/d/file/az/xxyc/2017-09-08/6b2d2c6749e50fa90c0fd23f1e672ff8.jpg" alt="红牛涂鸦艺术VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="红牛涂鸦艺术VR" rel="nofollow">红牛涂鸦艺术VR</a>
+              </strong>2017-09-08 | 260MB
+              <br> 类型：休闲养成
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/552.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+        </ul>
+        <ul class="clearfix uls">
+
+          <li>
+            <a href="" title="恋爱口令VR手游">
+              <img src="http://www.3vrvr.com/d/file/az/mnjy/2018-02-07/22cbc4b762aa9c430802c52151ebafd2.png" alt="恋爱口令VR手游"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="恋爱口令VR手游" rel="nofollow">恋爱口令VR手游</a>
+              </strong>2018-02-07 | 146MB
+              <br> 类型：电脑软件
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/725.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="VR特警2">
+              <img src="http://www.3vrvr.com/d/file/pc/dzsj/2017-12-30/99012f63cacf426a5fe030f4d6a7afad.jpg" alt="VR特警2" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="VR特警2" rel="nofollow">VR特警2</a>
+              </strong>2017-12-30 | 32.4MB
+              <br> 类型：射击游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/691.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="死亡视角VR">
+              <img src="http://www.3vrvr.com/d/file/az/etyx/2017-12-27/ea85867fc0286c0fec964bdf68455c90.jpeg" alt="死亡视角VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="死亡视角VR" rel="nofollow">死亡视角VR</a>
+              </strong>2017-12-27 | 2.13G
+              <br> 类型：儿童游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/685.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="炽天使之怒">
+              <img src="http://www.3vrvr.com/d/file/az/etyx/2017-12-08/55a668d5b0df6c4f2e2f7d712ca6b758.png" alt="炽天使之怒" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="炽天使之怒" rel="nofollow">炽天使之怒</a>
+              </strong>2017-12-07 | 128.15MB
+              <br> 类型：儿童游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/656.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="vr网球4">
+              <img src="http://www.3vrvr.com/d/file/pc/tytg/2017-10-27/275d46d0df9cd2e05341209b8abe80d8.jpg" alt="vr网球4" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="vr网球4" rel="nofollow">vr网球4</a>
+              </strong>2017-10-27 | 2.00GB
+              <br> 类型：体育竞技
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/594.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          
+
+          <li>
+            <a href="" title="中世纪的帝国VR">
+              <img src="http://www.3vrvr.com/d/file/az/yzjm/2017-09-16/c2e4c96a6aa2d0bf9107f97cccb3914a.jpg" alt="中世纪的帝国VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="中世纪的帝国VR" rel="nofollow">中世纪的帝国VR</a>
+              </strong>2017-09-16 | 45.02M
+              <br> 类型：益智解谜
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/564.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="死亡抉择VR">
+              <img src="http://www.3vrvr.com/d/file/az/cjty/2017-09-12/08f7283b3ce86b44293ba8310477b678.jpg" alt="死亡抉择VR" width="160"
+                height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="死亡抉择VR" rel="nofollow">死亡抉择VR</a>
+              </strong>2017-09-12 | 177.1MB 
+              <br> 类型：场景体验
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/557.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="美女嘿嘿嘿VR">
+              <img src="http://www.3vrvr.com/d/file/az/snyx/2017-09-12/3acb1f7bcbfbdec63f5d2c4c0e4270d5.jpg" alt="美女嘿嘿嘿VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="美女嘿嘿嘿VR" rel="nofollow">美女嘿嘿嘿VR</a>
+              </strong>2017-09-12 | 260MB
+              <br> 类型：少女游戏
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/556.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+          <li>
+            <a href="" title="红牛涂鸦艺术VR">
+              <img src="http://www.3vrvr.com/d/file/az/xxyc/2017-09-08/6b2d2c6749e50fa90c0fd23f1e672ff8.jpg" alt="红牛涂鸦艺术VR"
+                width="160" height="160">
+            </a>
+            <div class="info">
+              <strong>
+                <a href="" title="红牛涂鸦艺术VR" rel="nofollow">红牛涂鸦艺术VR</a>
+              </strong>2017-09-08 | 260MB
+              <br> 类型：休闲养成
+              <span class="info-color">福利： 上线送满V，5000元宝，金币*10000</span>
+              
+              <a href="http://www.3vrvr.com/az/552.html" rel="nofollow" class="btn">立即下载</a>
+            </div>
+          </li>
+
+        </ul>
+        <div class="tspage" style="display: block">
+          <div class="tsp_count">共:
+            <i>45</i>条 </div>
+          <div class="tsp_nav">&nbsp;
+            <span class="laypage_curr">1</span>&nbsp;
+            <a href="">2</a>&nbsp;
+            <a href="">3</a>&nbsp;
+            <a href="">4</a>&nbsp;
+            <a href="">5</a>&nbsp;
+            <a href="">6</a>&nbsp;
+            <a href="">7</a>..
+            <a href="">13</a>
+            <a href="" class="laypage_next">下一页</a>
+          </div>
+        </div>
+      </div>
+      
+      <!--appDown end-->
+    </div>
+    <!-- content-right -->
+    <div class="main_r mt fr">
+      <div id="top10" class="bp border">
+        <div class="hd">
+          <h3>应用TOP榜</h3>
+        </div>
+        <dl class="rank-list">
+            <dd class="dds hover">
+                    <span class="front">1</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/2296.html" target="_blank">QQ飞车手游</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/2296.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2017-12-28/713a1e31116f0c7ef486a5d8d21b7be3.jpg"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/2296.html" target="_blank" title="QQ飞车手游">QQ飞车手游</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="front">2</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/604.html" target="_blank">王者荣耀</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/604.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2016-06-13/e354e6b01a470ce551842fce434c0b8a.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/604.html" target="_blank" title="王者荣耀">王者荣耀</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="front">3</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/2467.html" target="_blank">神奇宝贝XY</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/2467.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2018-02-26/65df33ee7ea76563b89409dae6cfe19b.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/2467.html" target="_blank" title="神奇宝贝XY">神奇宝贝XY</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">4</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/1828.html" target="_blank">第五人格</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/1828.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2017-07-27/4b2721d0d9ea09aca88c419a49261d5e.jpg"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/1828.html" target="_blank" title="第五人格">第五人格</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">5</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/1195.html" target="_blank">迷雾世界</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/1195.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2016-10-27/f7a5d9b746cc4297b089c638f704108e.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/1195.html" target="_blank" title="迷雾世界">迷雾世界</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">6</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/832.html" target="_blank">阴阳师</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/832.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2016-11-07/fcb34c2d97664d9fc0d98622888c8a36.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/832.html" target="_blank" title="阴阳师">阴阳师</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">7</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/1223.html" target="_blank">大唐无双</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/1223.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2018-03-29/e600a9252a01c2ce1fbabf3776bbf91d.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/1223.html" target="_blank" title="大唐无双">大唐无双</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">8</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/2478.html" target="_blank">魔天记</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/2478.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2018-02-27/04f76415dcfecb2b01bfaa12d6242ec2.jpg"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/2478.html" target="_blank" title="魔天记">魔天记</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">9</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/1798.html" target="_blank">楚留香</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/1798.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2018-02-01/04060a19131fb366c947a7ec3b38a9d4.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/1798.html" target="_blank" title="楚留香">楚留香</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+                <dd class="dds">
+                    <span class="">10</span>
+                    <div class="brief">
+                        <a href="http://www.zhuayoukong.com/game/1440.html" target="_blank">爪游控手游盒子</a>
+                    </div>
+                    <div class="detail">
+                        <a href="http://www.zhuayoukong.com/game/1440.html" target="_blank" class="rank-img"><img src="http://pic.zhuayoukong.com/d/file/game/2017-07-12/c5d62ced026d14a7ba43019423e6d0db.png"></a>
+                        <h4><a href="http://www.zhuayoukong.com/game/1440.html" target="_blank" title="爪游控手游盒子">爪游控手游盒子</a></h4>
+                        <p>类型 : 安卓VR应用</p>
+                        <p>人气 : 5294</p>
+                    </div>
+                </dd>
+        </dl>
+      </div>
+      <div class="xgtj bp border" id="borderp">
+        <div class="hd">
+          <h3>相关专题</h3>
+        </div>
+        <ul class="img-list clearfix">
+          <li>
+            <a href="http://www.3vrvr.com/zt/wmvr/" title="无码VR">
+              <img src="http://www.3vrvr.com/d/file/p/2018-02-07/5a8b1a07916bf6cf5dc9252f5b2621b9.jpg" alt="无码VR">
+              <s></s>
+              <strong>无码VR</strong>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.3vrvr.com/zt/jmvr/" title="及木vr">
+              <img src="http://www.3vrvr.com/d/file/p/2018-01-20/1288a8ee77518397481eb822989e69f3.jpeg" alt="及木vr">
+              <s></s>
+              <strong>及木vr</strong>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.3vrvr.com/zt/vrnytvrbd/" title="vr女友免vr补丁">
+              <img src="http://www.3vrvr.com/d/file/p/2018-01-03/43346f72fb3066204acbb1cd879a5d48.gif" alt="vr女友免vr补丁">
+              <s></s>
+              <strong>vr女友免vr补丁</strong>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.3vrvr.com/zt/vrtj2/" title="VR特警2">
+              <img src="http://www.3vrvr.com/d/file/p/2017-12-30/e735cb0e61d2ed3f230277e1269f019f.jpg" alt="VR特警2">
+              <s></s>
+              <strong>VR特警2</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="guss mt bp border" id="borderp">
+        <div class="hd">
+          <h3>热门视频</h3>
+        </div>
+        <ul class="img-list clearfix">
+
+          <li>
+            <a href="http://www.3vrvr.com/app/160.html" title="">
+              <img src="http://www.3vrvr.com/d/file/huoche/20161222/5bcc5e55e142fdf709ce514a130b232c_600_566.png" alt="VR世界">
+              <s></s>
+              <strong>VR世界</strong>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.3vrvr.com/app/173.html" title="">
+              <img src="http://www.3vrvr.com/d/file/huoche/20161222/20167261110500971970288638350_600_566.jpg" alt="VeeR VR">
+              <s></s>
+              <strong>VeeR VR</strong>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.3vrvr.com/app/68.html" title="">
+              <img src="http://www.3vrvr.com/d/file/huoche/20161222/2016520141359663760_600_566.jpg" alt="VR800平台">
+              <s></s>
+              <strong>VR800平台</strong>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.3vrvr.com/az/230.html" title="">
+              <img src="http://www.3vrvr.com/d/file/az/cjty/2017-01-21/22dc9747578d7068a0c262ab5098d85d.png" alt="被囚禁的掌心VR">
+              <s></s>
+              <strong>被囚禁的掌心VR</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 猜你喜欢 -->
+  <div class="bottom-like">
+      <div class="xgtj bp">
+        <div class="hd">
+          <div class="hd-img"></div>
+          <h3>猜你喜欢</h3>
+        </div>
+        <div class="bd and_cnxh_show">
+          <ul>
+            <li>
+              <a class="item-cont" href="" title="我的VR女友破解版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2017-06-28/eadb35fe5365a8adb9a9622a2201c911.png" alt="我的VR女友破解版">
+                <div class="item-txt">
+                  <p class="item-tit">我的VR女友破解版</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="二次女友VR" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2017-06-26/d06fafe795d03c788b27cadb66d89b12.png" alt="二次女友VR">
+                <div class="item-txt">
+                  <p class="item-tit">二次女友VR</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="触摸性感女郎AR" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-09-14/52ab54c15af9ebb69d38bd9cc7e1e2f2.png" alt="触摸性感女郎AR">
+                <div class="item-txt">
+                  <p class="item-tit">触摸性感女郎AR</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="VR美女嘿嘿嘿" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-11-18/c898a4dc1a0f8328dddeced4abb25fb1.jpg" alt="VR美女嘿嘿嘿">
+                <div class="item-txt">
+                  <p class="item-tit">VR美女嘿嘿嘿</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="丧尸猎手VR安卓版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-09-07/e323e59d409e8d83aa099865bf24ed89.jpg" alt="丧尸猎手VR安卓版">
+                <div class="item-txt">
+                  <p class="item-tit">丧尸猎手VR</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="牧云祭" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2018-04-16/d6cb83f56990b194334cf622b21cae3e.png" alt="牧云祭">
+                <div class="item-txt">
+                  <p class="item-tit">牧云祭</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="恋与高校" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2018-04-26/956a651b209237e35e6ed5eb02d45bbc.png" alt="恋与高校">
+                <div class="item-txt">
+                  <p class="item-tit">恋与高校</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="星际裂痕满V版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2018-04-27/a054492610a0a2932d1c13a53fb1ea46.png" alt="星际裂痕满V版">
+                <div class="item-txt">
+                  <p class="item-tit">星际裂痕满V版</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="丧尸猎手VR安卓版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-09-07/e323e59d409e8d83aa099865bf24ed89.jpg" alt="丧尸猎手VR安卓版">
+                <div class="item-txt">
+                  <p class="item-tit">丧尸猎手VR</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="丧尸猎手VR安卓版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-09-07/e323e59d409e8d83aa099865bf24ed89.jpg" alt="丧尸猎手VR安卓版">
+                <div class="item-txt">
+                  <p class="item-tit">丧尸猎手VR</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-cont" href="" title="丧尸猎手VR安卓版" target="_blank">
+                <img class="game_app_img" src="http://www.vrzhijia.com/d/file/azvr/2016-09-07/e323e59d409e8d83aa099865bf24ed89.jpg" alt="丧尸猎手VR安卓版">
+                <div class="item-txt">
+                  <p class="item-tit">丧尸猎手VR</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- bottom -->
+  <div id="foot_blue" class="clearfix">
+    <div class="foot_box">
+        <div class="foot_about">
+            <div class="footnav">
+                <a href="" target="_blank" rel="nofollow" class="nobor_left">关于我们</a>
+                <a href="" target="_blank" rel="nofollow">网站帮助</a>
+                <a href="" target="_blank" rel="nofollow">网站声明</a>
+                <a href="" target="_blank" rel="nofollow">广告合作</a>
+                <a href="" target="_blank">RSS</a>
+                <a href="" target="_blank" rel="nofollow">软件提交</a>
+            </div>
+            <div class="foot_txt">Copy 2016 www.vrzhijia.com VR之家. All Rights Reserved.
+                <a href="" rel="nofollow" target="_blank">粤ICP备14057610号-1</a>
+            </div>
+            <div class="foot_txt">本站资源均收集整理于互联网，其著作权归原作者所有，如果有侵犯您权利的资源，请来信告知，我们将及时撤销相应资源。
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/list2.js"></script>
+
+</html>

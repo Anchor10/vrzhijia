@@ -1,0 +1,467 @@
+/* 当前位置 */
+
+.game-arrow {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.game-arrow p {
+    font-size: 14px;
+    color: #494949;
+    /* border-bottom: 1px solid #ececec; */
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.game-arrow p a:hover {
+    color: rgb(231, 159, 52);
+}
+
+/* 游戏详情 */
+
+.detail-bg {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ececec;
+    background: #fff;
+}
+
+.game-detail {
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.game-detail .detail-left {
+    width: 546px;
+    height: 280px;
+    float: left;
+}
+
+.game-detail .detail-left img {
+    width: 546px;
+    height: 280px;
+}
+
+.game-detail .detail-left {
+    width: 546px;
+    height: 280px;
+}
+
+.game-detail .detail-right {
+    float: left;
+    width: 580px;
+    height: 280px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.game-detail .detail-right h3 {
+    font-size: 25px;
+    color: #000;
+    height: 37px;
+    line-height: 37px;
+}
+
+.game-detail .detail-right h3 a {
+    color: #000;
+}
+
+.game-detail .detail-right .detail-p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 29px;
+    height: 110px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.game-detail .detail-right .detail-tag {
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+    text-indent: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.game-detail .detail-right .detail-tag span {
+    display: block;
+    text-indent: 30px;
+    position: relative;
+}
+
+.game-detail .detail-right .detail-tag a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: #49c010;
+    /* background: red; */
+    font-size: 20px;
+    position: absolute;
+    left: -30px;
+}
+.game-detail .detail-right .date{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 16px;
+    
+}
+
+
+/* 热门标签 */
+
+.hot-tag {
+    width: 1180px;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ececec;
+}
+
+.hot-tag h3 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hot-tag .hot-list {
+    overflow: hidden;
+    /* height: 114px; */
+}
+
+.hot-tag .hot-list li {
+    width: 192px;
+    float: left;
+    color: #333333;
+    font-weight: 14px;
+    height: 25px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.hot-tag .hot-list li .iconfont {
+    color: #65aeec;
+    font-size: 20px;
+}
+
+.hot-tag .hot-list li a {
+    color: #333333;
+    margin-left: 5px;
+}
+
+.hot-tag .hot-list li a:hover {
+    -webkit-text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #5fabec;
+}
+
+/* 应用推荐 */
+
+.commend {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #dddddd;
+}
+
+.commend h3 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #000;
+    border-bottom: 4px solid #0193de;
+    text-indent: 10px;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+
+
+
+.commend .commend-list {
+    width: 1200px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.commend .commend-list ul {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.commend .commend-list ul li {
+    float: left;
+    width: 548px;
+    height: 188px;
+    background: #ededed;
+    overflow: hidden;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.commend .commend-list ul li .download {
+    display: block;
+    background: #0193de;
+    width: 60px;
+    height: 42px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.commend .commend-list ul li .download:hover {
+    background: #1C7DC5;
+    text-decoration: underline;
+}
+
+.commend .commend-list ul li:nth-of-type(even) {
+    margin-right: 0;
+}
+
+.commend .commend-list ul li .li-left {
+    width: 120px;
+    height: 127px;
+    float: left;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.commend .commend-list ul li .li-left img {
+    width: 120px;
+    height: 127px;
+    border-radius: 20px;
+}
+
+.commend .commend-list ul li .li-left:hover {
+    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotateZ(360deg);
+}
+
+.commend .commend-list ul li .li-right {
+    float: left;
+    width: 388px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.commend .commend-list ul li .li-right h4 {
+    font-size: 22px;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.commend .commend-list ul li .li-right h4:hover a {
+    color: #65aeec;
+    text-decoration: underline;
+}
+
+.commend .commend-list ul li .li-right .commend-info {
+    color: #ed7d1b;
+    font-size: 14px;
+    border-bottom: 1px dotted #cacaca;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.commend .commend-list ul li .li-right .commend-info span {
+    border-left: 2px solid #ccd3e0;
+    padding-left: 20px;
+}
+
+.commend .commend-list ul li .li-right .commend-info a {
+    color: #ff6600;
+    margin-right: 20px;
+}
+
+.commend .commend-list ul li .li-right .commend-info a:hover {
+    text-decoration: underline;
+}
+
+.commend .commend-list ul li .li-right .commend-eval {
+    color: #ff7f27;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.commend .commend-list ul li .li-right .commend-detail {
+    height: 40px;
+    font-size: 12px;
+    color: #888888;
+    line-height: 22px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.page-num {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.page-num a {
+    padding: 5px 10px;
+    border: 1px solid #e3e3e3;
+    margin-right: 5px;
+}
+.page-num a:hover{
+    background: #f1f1f1;
+}
+
+.page-num a.page-cur {
+    background: #0193de;
+    color: #fff;
+}
+
+/* 合集推荐 */
+
+.collection {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #fff;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.collection h3 {
+    height: 50px;
+    width: 1180px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 26px;
+    text-indent: 10px;
+    color: #000;
+    border-bottom: 4px solid #0193de;
+}
+
+.collection ul {
+    overflow: hidden;
+}
+
+.collection ul li {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.collection ul li:hover {
+    opacity: 0.9;
+}
+
+.collection ul li:hover .col-title {
+    color: #ff7f27;
+}
+
+.collection ul li img {
+    display: block;
+    width: 216px;
+    height: 80px;
+}
+
+.collection ul li .col-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+/* 相关文章 */
+
+.related {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.related h3 {
+    height: 50px;
+    width: 1180px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 26px;
+    text-indent: 10px;
+    color: #000;
+    border-bottom: 4px solid #0193de;
+}
+
+.related ul {
+    overflow: hidden;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.related .icon-dian {
+    font-size: 19px;
+}
+
+.related ul li {
+    float: left;
+    width: 360px;
+    /* list-style: square outside none; */
+    /* padding-left: 20px; */
+    margin-left: 20px;
+    height: 30px;
+}
+
+.related ul li a {
+    display: block;
+    width: 320px;
+    margin-left: -5px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.related ul li a:hover {
+    text-decoration: underline;
+    color: #0193de;
+}
+
+.bg-border {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
