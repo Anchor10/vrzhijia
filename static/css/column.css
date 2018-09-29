@@ -23,7 +23,7 @@ body {
 /* content-left */
 
 .vr_list_left {
-    width: 800px;
+    width: 795px;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
@@ -163,7 +163,7 @@ body {
 }
 
 .vr_list_left_info {
-    width: 750px;
+    width: 740px;
     margin-left: 35px;
     height: 142px;
     border-bottom: 1px solid #EFEFEF;
@@ -373,7 +373,6 @@ i {
 }
 
 .game-img3 {
-    width: 95px;
     float: left;
     background: #00a2e8;
     height: 35px;
@@ -428,7 +427,7 @@ i {
 }
 
 .game-h2Wrap {
-    margin-left: 20px;
+    margin-left: 10px;
     width: 335px;
     height: 40px;
     border-bottom: 2px #ebebeb solid;
