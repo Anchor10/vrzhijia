@@ -276,7 +276,8 @@ th {
 }
 .elXxIn {
   margin-top: 24px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 259px;
 }
 .elXxLeft {
   float: left;
@@ -294,7 +295,7 @@ th {
   height: 52px;
   margin-top: 19px;
 }
-.elXxLeft dl dd a {
+.elXxLeft dl dd #xiazaila {
   display: block;
   width: 180px;
   height: 52px;
@@ -306,19 +307,20 @@ th {
   color: #FFFFFF;
   font-size: 18px;
 }
-.elXxLeft dl dd.cont1 a {
+.elXxLeft dl dd.cont1 #xiazaila {
   display: block;
   width: 180px;
   height: 52px;
+  position: relative;
 }
-.elXxLeft dl dd.cont1 a b {
+.elXxLeft dl dd.cont1 #xiazaila b {
   display: block;
   float: left;
   width: 52px;
   height: 52px;
   background: url(../images/2015bg23.png) no-repeat 0px -120px;
 }
-.elXxLeft dl dd.cont1 a h3 {
+.elXxLeft dl dd.cont1 #xiazaila h3 {
   float: left;
   text-indent: 30px;
   font-weight: 300;
@@ -993,3 +995,14 @@ element.style {
   color: #FFFFFF;
   cursor: pointer;
 }
+
+/* 下载按钮 */
+.eight-ewm{position: absolute; width: 202px;background:#fff;box-shadow:0 0 2px rgba(0,0,0,0.5);text-align:center;padding:15px 0px;border-radius:4px;left: -11px;top: 52px;z-index:9999;display:none;}
+.eight-ewm.box1{height: 200px;}
+.eight-ewm.box2{height: 178px;}
+.eight-ewm p{font-size:14px;color:#333;line-height:22px;}
+.eight-ewm img{width:130px;height:130px;margin:10px auto;float:none;}
+.eight-ewm a{ color:#ff0000; font-size:14px; cursor:pointer;} 
+.eight-ewm button{display:inline-block;width:100%;background:#ff4b4b;color:#fff;text-align:center;line-height:45px;border-radius:6px;font-size:14px;border:none;cursor:pointer;}
+.android{position: relative;}
+.ios{position: relative;}

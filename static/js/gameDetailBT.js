@@ -49,3 +49,31 @@ $(".collect-nav").on("click","a",function(){
     $(".ol-container").hide();
     $(".ol-container").eq($(this).index()).show();
 })
+
+// 下载按钮-20181123
+// $(function(){
+//   $(".android").hover(function(){
+//     $(this).find(".eight-ewm").stop().slideDown(200);
+//   },function(){
+//     $(this).find(".eight-ewm").stop().slideUp(200);
+//   })
+//   $(".ios").hover(function(){
+//     $(this).find(".eight-ewm").stop().slideDown(200);
+//   },function(){
+//     $(this).find(".eight-ewm").stop().slideUp(200);
+//   })
+// })
+
+$(function(){
+  $('.btn-download.ios').click(function(e){
+    e.stopPropagation();    
+    $('.eight-ewm.box2').slideToggle(200);
+    $('.eight-ewm.box1').slideUp(200);
+  })
+  $('.btn-download.android').click(function(e){
+    e.stopPropagation();
+    $('.eight-ewm.box1').slideToggle(200);
+    $('.eight-ewm.box2').slideUp(200);
+  })
+  $('body').click(function(){$('.eight-ewm').slideUp(200);})
+})

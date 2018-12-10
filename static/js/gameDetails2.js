@@ -35,3 +35,11 @@ $('.guanbifankui1').click(function(){
 $("#problem").on("click",function(){
   $("body,html").animate({"scrollTop":"1300px"});
 })
+// 下载按钮
+$(function(){
+  $('#xiazaila').click(function(e){
+    e.stopPropagation();
+    $('.eight-ewm.box1').slideToggle(200);
+  })
+  $('body').click(function(){$('.eight-ewm').slideUp(200);})
+})
